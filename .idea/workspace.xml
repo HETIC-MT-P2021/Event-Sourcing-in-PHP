@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c1eb370-33b4-41c5-9138-fb0bd4ab14d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Infra/UserRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Command/ChangeEmail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Command/ChangeEmailHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Command/RegisterUser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Command/RegisterUserHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Event/EmailChanged.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Event/UserRegistred.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/UserRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projection/UserProjector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/beberlei/assert/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/beberlei/assert/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/beberlei/assert/lib/Assert/Assert.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/beberlei/assert/lib/Assert/Assertion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/beberlei/assert/lib/Assert/AssertionChain.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/beberlei/assert/lib/Assert/AssertionFailedException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/beberlei/assert/lib/Assert/InvalidArgumentException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/beberlei/assert/lib/Assert/LazyAssertion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/beberlei/assert/lib/Assert/LazyAssertionException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/beberlei/assert/lib/Assert/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/beberlei/assert/phpstan-code.neon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/beberlei/assert/phpstan-tests.neon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/SECURITY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/psalm-baseline.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/psalm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/random-tests.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/src/BigDecimal.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/src/BigInteger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/src/BigNumber.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/src/BigRational.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/src/Exception/DivisionByZeroException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/src/Exception/IntegerOverflowException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/src/Exception/MathException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/src/Exception/NegativeNumberException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/src/Exception/NumberFormatException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/src/Exception/RoundingNecessaryException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/src/Internal/Calculator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/src/Internal/Calculator/BcMathCalculator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/src/Internal/Calculator/GmpCalculator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/src/Internal/Calculator/NativeCalculator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/brick/math/src/RoundingMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marc-mabe/php-enum/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marc-mabe/php-enum/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marc-mabe/php-enum/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marc-mabe/php-enum/phpstan.neon.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marc-mabe/php-enum/src/Enum.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marc-mabe/php-enum/src/EnumMap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marc-mabe/php-enum/src/EnumSerializableTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marc-mabe/php-enum/src/EnumSet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/.docheader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/.php_cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/docs/bookdown.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/docs/event.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/docs/messaging.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Event/ActionEvent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Event/ActionEventEmitter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Event/ActionEventListenerAggregate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Event/DefaultActionEvent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Event/DefaultListenerHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Event/DetachAggregateHandlers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Event/ListenerHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Event/ProophActionEventEmitter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Messaging/Command.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Messaging/DomainEvent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Messaging/DomainMessage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Messaging/FQCNMessageFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Messaging/HasMessageName.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Messaging/Message.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Messaging/MessageConverter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Messaging/MessageDataAssertion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Messaging/MessageFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Messaging/NoOpMessageConverter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Messaging/PayloadConstructable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Messaging/PayloadTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/src/Messaging/Query.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/tests/Event/DefaultActionEventTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/tests/Event/ProophActionEventEmitterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/tests/Messaging/CommandTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/tests/Messaging/DomainEventTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/tests/Messaging/FQCNMessageFactoryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/tests/Messaging/MessageDataAssertionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/tests/Messaging/NoOpMessageConverterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/tests/Messaging/QueryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/tests/Mock/ActionEventListenerMock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/tests/Mock/ActionListenerAggregateMock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/tests/Mock/AskSomething.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/tests/Mock/DoSomething.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/tests/Mock/InvalidMessage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/common/tests/Mock/SomethingWasDone.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/src/Aggregate/AggregateRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/src/Aggregate/AggregateTranslator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/src/Aggregate/AggregateType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/src/Aggregate/AggregateTypeProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/src/Aggregate/EventProducerTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/src/Aggregate/EventSourcedTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/src/Aggregate/Exception/AggregateException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/src/Aggregate/Exception/AggregateTranslationFailedException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/src/Aggregate/Exception/AggregateTypeException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/src/Aggregate/Exception/InvalidArgumentException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/src/Aggregate/Exception/RuntimeException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/src/AggregateChanged.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/src/AggregateRoot.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/src/Container/Aggregate/AggregateRepositoryFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/src/EventStoreIntegration/AggregateRootDecorator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/src/EventStoreIntegration/AggregateTranslator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-sourcing/src/EventStoreIntegration/ClosureAggregateTranslator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/.docheader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/.php_cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/docs/bookdown.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/docs/causation_metadata_enricher.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/docs/event_publisher.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/docs/transaction_manager.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/src/CausationMetadataEnricher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/src/Container/EventPublisherFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/src/Container/TransactionManagerFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/src/EventPublisher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/src/Exception/EventStoreBusBridgeException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/src/Exception/InvalidArgumentException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/src/TransactionManager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/tests/CausationMetadataEnricherTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/tests/Container/EventPublisherFactoryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/tests/Container/TransactionManagerFactoryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/tests/EventPublisherTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge/tests/TransactionManagerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/ActionEventEmitterEventStore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Container/InMemoryEventStoreFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Container/InMemoryProjectionManagerFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/EventStore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/EventStoreDecorator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Exception/ConcurrencyException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Exception/ConfigurationException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Exception/EventStoreException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Exception/ExtensionNotLoadedException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Exception/InvalidArgumentException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Exception/OutOfRangeException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Exception/ProjectionNotFound.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Exception/RuntimeException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Exception/StreamExistsAlready.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Exception/StreamNotFound.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Exception/TransactionAlreadyStarted.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Exception/TransactionNotStarted.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/InMemoryEventStore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Metadata/FieldType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Metadata/MetadataEnricher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Metadata/MetadataEnricherAggregate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Metadata/MetadataEnricherPlugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Metadata/MetadataMatcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Metadata/Operator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/NonTransactionalInMemoryEventStore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Plugin/AbstractPlugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Plugin/Plugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Plugin/UpcastingPlugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Projection/AbstractReadModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Projection/InMemoryEventStoreProjector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Projection/InMemoryEventStoreQuery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Projection/InMemoryEventStoreReadModelProjector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Projection/InMemoryProjectionManager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Projection/ProjectionManager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Projection/ProjectionStatus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Projection/Projector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Projection/Query.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Projection/ReadModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Projection/ReadModelProjector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/ReadOnlyEventStore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/ReadOnlyEventStoreWrapper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Stream.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/StreamIterator/EmptyStreamIterator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/StreamIterator/InMemoryStreamIterator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/StreamIterator/MergedStreamIterator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/StreamIterator/StreamIterator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/StreamIterator/TimSort.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/StreamName.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/TransactionalActionEventEmitterEventStore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/TransactionalEventStore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Upcasting/NoOpEventUpcaster.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Upcasting/SingleEventUpcaster.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Upcasting/Upcaster.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Upcasting/UpcasterChain.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Upcasting/UpcastingIterator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Util/ArrayCache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/event-store/src/Util/Assertion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/docker-compose-tests.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/docs/bookdown.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/docs/interop_factories.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/docs/introduction.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/docs/variants.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/phpunit.xml.mariadb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/phpunit.xml.mysql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/phpunit.xml.postgres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/scripts/mariadb/01_event_streams_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/scripts/mariadb/02_projections_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/scripts/mysql/01_event_streams_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/scripts/mysql/02_projections_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/scripts/postgres/01_event_streams_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/scripts/postgres/02_projections_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Container/AbstractEventStoreFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Container/AbstractProjectionManagerFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Container/MariaDbEventStoreFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Container/MariaDbProjectionManagerFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Container/MySqlEventStoreFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Container/MySqlProjectionManagerFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Container/PdoConnectionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Container/PostgresEventStoreFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Container/PostgresProjectionManagerFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/DefaultMessageConverter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Exception/ConcurrencyExceptionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Exception/ExtensionNotLoaded.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Exception/InvalidArgumentException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Exception/JsonException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Exception/PdoEventStoreException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Exception/ProjectionNotCreatedException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Exception/RuntimeException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/HasQueryHint.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/MariaDBIndexedPersistenceStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/MariaDbEventStore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/MySqlEventStore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/PdoEventStore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/PdoStreamIterator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/PersistenceStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/PersistenceStrategy/MariaDbAggregateStreamStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/PersistenceStrategy/MariaDbPersistenceStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/PersistenceStrategy/MariaDbSimpleStreamStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/PersistenceStrategy/MariaDbSingleStreamStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/PersistenceStrategy/MySqlAggregateStreamStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/PersistenceStrategy/MySqlPersistenceStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/PersistenceStrategy/MySqlSimpleStreamStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/PersistenceStrategy/MySqlSingleStreamStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/PersistenceStrategy/PostgresAggregateStreamStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/PersistenceStrategy/PostgresPersistenceStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/PersistenceStrategy/PostgresSimpleStreamStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/PersistenceStrategy/PostgresSingleStreamStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/PostgresEventStore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Projection/GapDetection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Projection/MariaDbProjectionManager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Projection/MySqlProjectionManager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Projection/PdoEventStoreProjector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Projection/PdoEventStoreQuery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Projection/PdoEventStoreReadModelProjector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Projection/PostgresProjectionManager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Util/Json.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/Util/PostgresHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/WriteLockStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/WriteLockStrategy/MariaDbMetadataLockStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/WriteLockStrategy/MysqlMetadataLockStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/WriteLockStrategy/NoLockStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-event-store/src/WriteLockStrategy/PostgresAdvisoryLockStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-snapshot-store/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-snapshot-store/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-snapshot-store/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-snapshot-store/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-snapshot-store/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-snapshot-store/docker-compose-tests.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-snapshot-store/phpunit.xml.mariadb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-snapshot-store/phpunit.xml.mysql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-snapshot-store/phpunit.xml.postgres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-snapshot-store/scripts/mysql_snapshot_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-snapshot-store/scripts/postgres_snapshot_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-snapshot-store/src/Container/PdoSnapshotStoreFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-snapshot-store/src/Exception/RuntimeException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/pdo-snapshot-store/src/PdoSnapshotStore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/.docheader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/.php_cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/config/prooph_service_bus.config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/docs/async_message_producer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/docs/bookdown.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/docs/factories.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/docs/message_bus.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/docs/plugins.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/docs/service_bus_system.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/examples/quick-start.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Async/AsyncMessage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Async/MessageProducer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/CommandBus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Container/AbstractBusFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Container/CommandBusFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Container/EventBusFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Container/Plugin/Guard/FinalizeGuardFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Container/Plugin/Guard/RouteGuardFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Container/QueryBusFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/EventBus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Exception/CommandDispatchException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Exception/EventListenerException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Exception/InvalidArgumentException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Exception/MessageDispatchException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Exception/RuntimeException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Exception/ServiceBusException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/MessageBus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/AbstractPlugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/Guard/AuthorizationService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/Guard/FinalizeGuard.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/Guard/RouteGuard.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/Guard/UnauthorizedException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/InvokeStrategy/FinderInvokeStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/InvokeStrategy/HandleCommandStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/InvokeStrategy/OnEventStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/ListenerExceptionCollectionMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/MessageFactoryPlugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/MessageProducerPlugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/Plugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/Router/AsyncSwitchMessageRouter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/Router/CommandRouter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/Router/EventRouter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/Router/MessageBusRouterPlugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/Router/QueryRouter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/Router/RegexRouter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/Router/ServiceLocatorEventRouter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/Router/SingleHandlerRouter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/Router/SingleHandlerServiceLocatorRouter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/Plugin/ServiceLocatorPlugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/src/QueryBus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/CommandBusTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Container/BusFactoriesTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Container/Plugin/Guard/FinalizeGuardFactoryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Container/Plugin/Guard/RouteGuardFactoryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/EventBusTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Exception/CommandDispatchExceptionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/MessageBusTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/AsyncCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/AsyncEvent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/AutoErrorProducer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/CustomInvokableMessageHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/CustomMessage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/CustomMessageBus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/CustomMessageCommandHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/CustomMessageEventHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/CustomMessageEventHandler2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/CustomMessageEventHandlerThrowingExceptions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/CustomMessageWithName.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/CustomOnEventStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/DoSomething.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/ErrorProducer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/FetchSomething.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/Finder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/MessageHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/NonAsyncCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/NoopMessageProducer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Mock/SomethingDone.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Plugin/Guard/FinalizeGuardTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Plugin/Guard/RouteGuardTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Plugin/InvokeStrategy/FinderInvokeStrategyTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Plugin/InvokeStrategy/HandleCommandStrategyTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Plugin/InvokeStrategy/OnEventStrategyTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Plugin/ListenerExceptionCollectionModeTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Plugin/MessageFactoryPluginTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Plugin/MessageProducerPluginTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Plugin/Router/AsyncSwitchMessageRouterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Plugin/Router/EventRouterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Plugin/Router/RegexRouterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Plugin/Router/ServiceLocatorEventRouterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Plugin/Router/SingleHandlerRouterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Plugin/Router/SingleHandlerServiceLocatorRouterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/Plugin/ServiceLocatorPluginTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/service-bus/tests/QueryBusTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/.docheader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/.php_cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/docs/bookdown.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/docs/snapshot_store.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/src/CallbackSerializer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/src/CompositeSnapshotStore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/src/Container/CompositeSnapshotStoreFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/src/InMemorySnapshotStore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/src/Serializer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/src/Snapshot.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/src/SnapshotStore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/tests/CallbackSerializerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/tests/CompositeSnapshotStoreTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/tests/Container/CompositeSnapshotStoreFactoryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/tests/InMemorySnapshotStoreTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshot-store/tests/SnapshotTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/.docheader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/.php_cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/docs/bookdown.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/docs/snapshots.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/src/CategorySnapshotProjection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/src/SnapshotReadModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/src/StreamSnapshotProjection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/tests/CategorySnapshotProjectionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/tests/Mock/TestAggregate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/tests/SnapshotReadModelTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/prooph/snapshotter/tests/StreamSnapshotProjectionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/AbstractArray.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/AbstractCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/AbstractSet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/ArrayInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Collection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/CollectionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/DoubleEndedQueue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/DoubleEndedQueueInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Exception/CollectionMismatchException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Exception/InvalidArgumentException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Exception/InvalidSortOrderException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Exception/NoSuchElementException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Exception/OutOfBoundsException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Exception/UnsupportedOperationException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Exception/ValueExtractionException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/GenericArray.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Map/AbstractMap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Map/AbstractTypedMap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Map/AssociativeArrayMap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Map/MapInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Map/NamedParameterMap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Map/TypedMap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Map/TypedMapInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/QueueInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Set.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Tool/TypeTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Tool/ValueExtractorTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/collection/src/Tool/ValueToStringTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/BinaryUtils.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Builder/BuilderCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Builder/DefaultUuidBuilder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Builder/DegradedUuidBuilder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Builder/FallbackBuilder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Builder/UuidBuilderInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Codec/CodecInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Codec/GuidStringCodec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Codec/OrderedTimeCodec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Codec/StringCodec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Codec/TimestampFirstCombCodec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Codec/TimestampLastCombCodec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Converter/Number/BigNumberConverter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Converter/Number/DegradedNumberConverter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Converter/Number/GenericNumberConverter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Converter/NumberConverterInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Converter/Time/BigNumberTimeConverter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Converter/Time/DegradedTimeConverter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Converter/Time/GenericTimeConverter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Converter/Time/PhpTimeConverter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Converter/TimeConverterInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/DegradedUuid.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/DeprecatedUuidInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/DeprecatedUuidMethodsTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Exception/BuilderNotFoundException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Exception/DateTimeException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Exception/DceSecurityException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Exception/InvalidArgumentException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Exception/InvalidBytesException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Exception/InvalidUuidStringException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Exception/NameException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Exception/NodeException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Exception/RandomSourceException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Exception/TimeSourceException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Exception/UnableToBuildUuidException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Exception/UnsupportedOperationException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/FeatureSet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Fields/FieldsInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Fields/SerializableFieldsTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/CombGenerator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/DceSecurityGenerator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/DceSecurityGeneratorInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/DefaultNameGenerator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/DefaultTimeGenerator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/NameGeneratorFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/NameGeneratorInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/PeclUuidNameGenerator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/PeclUuidRandomGenerator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/PeclUuidTimeGenerator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/RandomBytesGenerator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/RandomGeneratorFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/RandomGeneratorInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/RandomLibAdapter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/TimeGeneratorFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Generator/TimeGeneratorInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Guid/Fields.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Guid/Guid.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Guid/GuidBuilder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Lazy/LazyUuidFromString.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Math/BrickMathCalculator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Math/CalculatorInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Math/RoundingMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Nonstandard/Fields.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Nonstandard/Uuid.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Nonstandard/UuidBuilder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Nonstandard/UuidV6.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Provider/Dce/SystemDceSecurityProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Provider/DceSecurityProviderInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Provider/Node/FallbackNodeProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Provider/Node/NodeProviderCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Provider/Node/RandomNodeProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Provider/Node/StaticNodeProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Provider/Node/SystemNodeProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Provider/NodeProviderInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Provider/Time/FixedTimeProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Provider/Time/SystemTimeProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Provider/TimeProviderInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Rfc4122/Fields.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Rfc4122/FieldsInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Rfc4122/NilTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Rfc4122/NilUuid.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Rfc4122/UuidBuilder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Rfc4122/UuidInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Rfc4122/UuidV1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Rfc4122/UuidV2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Rfc4122/UuidV3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Rfc4122/UuidV4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Rfc4122/UuidV5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Rfc4122/Validator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Rfc4122/VariantTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Rfc4122/VersionTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Type/Decimal.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Type/Hexadecimal.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Type/Integer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Type/NumberInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Type/Time.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Type/TypeInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Uuid.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/UuidFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/UuidFactoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/UuidInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Validator/GenericValidator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Validator/ValidatorInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/Ctype.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/composer.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/prooph/event-store-bus-bridge" />
+      <path value="$PROJECT_DIR$/vendor/prooph/event-sourcing" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/prooph/common" />
+      <path value="$PROJECT_DIR$/vendor/beberlei/assert" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/prooph/service-bus" />
+      <path value="$PROJECT_DIR$/vendor/prooph/pdo-event-store" />
+      <path value="$PROJECT_DIR$/vendor/prooph/snapshotter" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/prooph/snapshot-store" />
+      <path value="$PROJECT_DIR$/vendor/prooph/pdo-snapshot-store" />
+      <path value="$PROJECT_DIR$/vendor/prooph/event-store" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/marc-mabe/php-enum" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1jkiwq4DFmPuHX5ZEncWUirvJMO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c1eb370-33b4-41c5-9138-fb0bd4ab14d4" name="Default Changelist" comment="" />
+      <created>1604356351398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604356351398</updated>
+      <workItem from="1604356352834" duration="32000" />
+      <workItem from="1604356392545" duration="9113000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="419" key="#Composer" timestamp="1604356383798">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="690" y="419" key="#Composer/0.23.1792.1017@0.23.1792.1017" timestamp="1604356383798" />
+    <state x="360" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604360379340">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="360" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1604360379340" />
+    <state x="591" y="340" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604356489451">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="591" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1604356489451" />
+    <state x="715" y="462" key="NewPhpFileDialog" timestamp="1604877619877">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="715" y="462" key="NewPhpFileDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1604877619877" />
+    <state x="561" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1604875137230">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="561" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1604875137230" />
+  </component>
+</project>

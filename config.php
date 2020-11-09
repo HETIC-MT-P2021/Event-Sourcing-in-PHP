@@ -1,7 +1,6 @@
 <?php
  
-// ./config.php
- 
+
 namespace {
  
     use App\Model\Command\ChangeEmail;
@@ -26,7 +25,7 @@ namespace {
     use Prooph\SnapshotStore\Pdo\PdoSnapshotStore;
  
     include "./vendor/autoload.php";
- 
+ //database connection information
     $pdo = new PDO('mysql:dbname=CQRS;host=localhost', 'root', 'root');
     $eventStore = new MySqlEventStore(new FQCNMessageFactory(), $pdo, new MySqlAggregateStreamStrategy());
     $eventEmitter = new ProophActionEventEmitter();
