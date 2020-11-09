@@ -1,7 +1,6 @@
 <?php
  
-// ./src/Model/Command/RegisterUserHandler.php
- 
+
 declare(strict_types=1);
  
 namespace App\Model\Command;

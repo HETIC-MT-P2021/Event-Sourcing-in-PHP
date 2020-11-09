@@ -1,7 +1,6 @@
 <?php
  
-// ./src/Model/Event/EmailChanged.php
- 
+//notification user changed his email
 declare(strict_types=1);
  
 namespace App\Model\Event;

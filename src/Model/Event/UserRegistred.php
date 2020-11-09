@@ -1,7 +1,6 @@
 <?php
- 
-// ./src/Model/Event/UserRegistered.php
- 
+
+//event user created an account
 declare(strict_types=1);
  
 namespace App\Model\Event;
